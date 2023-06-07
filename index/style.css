@@ -1,0 +1,91 @@
+body {
+    background-image: url('/Users/artem/Desktop/index/img/image 1.png');
+}
+
+input{
+    position: absolute;
+    width: 254px;
+    height: 36px;
+    right: 16px;
+    top: 0px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+span{
+    position: absolute;
+    width: 58px;
+    height: 36px;
+    left: 16px;
+    top: 0px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 30px;
+    height: 36px;
+
+    color: #FFFFFF;
+
+}
+
+.activeBlok{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    left:560px;
+    top:290px;
+    background: rgba(28, 28, 28, 0.5);
+    backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+}
+
+.inputBlock{
+    position: absolute;
+    width: 350px;
+    height: 42px;
+    left: 370px;
+    top: 225px;
+}
+
+.stroke{
+    position: absolute;
+    width: 350px;
+    height: 2px;
+    bottom: 0px;
+    background-color: white;
+}
+
+.country{
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    left: 80px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.country-btn{
+    background: transparent;
+    position: relative;
+    width: 200px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 40px;
+    border: 2px solid #000000;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+  
+    color: #FFFFFF;
+  }
